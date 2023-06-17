@@ -7,9 +7,9 @@ const db = require('knex')({
         connection: {
         host : 'dpg-ci6m5amnqql0ld9e8pi0-a.oregon-postgres.render.com',
         port : 5432,
-        user : 'postgres',
-        password : 'password',
-        database : 'smart-brain'
+        user : 'mydb_gbru_user',
+        password : 'G8mFnb1Kp1gHwvFtubY9Ix9ia02X0tDv',
+        database : 'mydb_gbru'
     }
     });
 
