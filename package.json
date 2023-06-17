@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
@@ -17,5 +18,8 @@
     "knex": "^2.4.2",
     "nodemon": "^2.0.22",
     "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt-nodejs": "^0.0.31"
   }
 }
